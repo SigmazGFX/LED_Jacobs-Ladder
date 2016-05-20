@@ -26,9 +26,9 @@ randNumber = random(500, 5000);
 
   static uint8_t hue = 0;
   Serial.print("x");
-  // First slide the led in one direction
+  //Run the led up the string
   for(int i = 0; i < NUM_LEDS; i++) {
-    // Set the i'th led to red 
+    // Set the i'th led to white
     leds[i] = CHSV(hue++, 255, 255);
     // Show the leds
     FastLED.show(); 
