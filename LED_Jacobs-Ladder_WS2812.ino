@@ -1,5 +1,5 @@
 #include "FastLED.h"
-#include <PCM.h>
+#include <PCM.h> // damellis-PCM library
 
 #define NUM_LEDS 12 // How many leds in your strip?
 #define DATA_PIN 7 //  Which pin are we they connected?
