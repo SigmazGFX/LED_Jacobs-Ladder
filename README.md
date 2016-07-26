@@ -6,6 +6,7 @@ and another version using WS2812b LEDs ( my personal favorite )
 
 It's supposed to give the illusion of an actual arc climbing and extinguishing.
 Raw audio data stored in progmem and played out via PWM on pin without any additional need for hardware shields.
+Audio converted down to 8bit 8000hz mono raw data.
 
 (WS2812b example)
 http://youtu.be/3FGFCeCJQoc
