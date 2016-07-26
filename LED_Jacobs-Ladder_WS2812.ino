@@ -33,8 +33,6 @@ randNumber = random(500, 5000);
     // Show the leds
     FastLED.show(); 
     startPlayback(sample, sizeof(sample));//Play sizzle sound
-    // now that we've shown the leds, reset the i'th led to black
-    // leds[i] = CRGB::Black;
     fadeall();
     // Wait a little bit before we loop around and do it again
     delay(10);
